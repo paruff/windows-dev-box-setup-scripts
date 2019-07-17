@@ -35,8 +35,28 @@ code --install-extension msjsdiag.debugger-for-edge
 
 #--- Tools ---
 choco install -y nodejs-lts # Node.js LTS, Recommended for most users
-# choco install -y nodejs # Node.js Current, Latest features
-choco install -y visualstudio2017buildtools
+choco install -y git --version 2.22.0# git
+choco install -y git-flow # branching methodology
+choco install -y vscode --version 1.36.1
+choco install -y adoptopenjdk --version 8.192
+choco install -y docker-cli --version 18.09.6
+choco install -y docker-compose --version 1.24.0
+choco install -y docker-machine --version 0.16.1
+choco install -y minikube --version 1.2.0 
+choco install -y awscli --version 1.16.198
+choco install -y maven --version 3.6.1
+choco install -y vagrant --version 2.2.5
+choco install -y virtualbox --version 6.0.10
+choco install -y helm --version 2.14.2
+choco install -y kubernetes-cli --version 1.15.0
+choco install -y postman --version 7.2.2
+choco install -y springtoolsuite --version 3.9.6
+
+
+
+
+
+
 choco install -y visualstudio2017-workload-vctools
 choco install -y python2 # Node.js requires Python 2 to build native modules
 
